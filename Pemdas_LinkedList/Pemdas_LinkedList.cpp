@@ -169,4 +169,7 @@ int main() {
 					system("pause");
 					system("cls");
 				}
-				
+				else
+					cout << "Data tidak ditemukan" << endl;
+				break;
+			
