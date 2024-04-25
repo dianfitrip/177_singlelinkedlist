@@ -161,4 +161,12 @@ int main() {
 					break;
 				}
 
+				int nim;
+				cout << "Masukkan NIM: ";
+				cin >> nim;
+				if (deleteNode(nim)) {
+					cout << "nim: " << nim << " berhasil dihapus" << endl;
+					system("pause");
+					system("cls");
+				}
 				
